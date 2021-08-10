@@ -1,0 +1,8 @@
+type Post @model 
+@key(name: "byUser", fields: ["userID"]) 
+{
+  id: ID!
+  userID: ID!
+  name: String!
+  url: AWSURL
+}

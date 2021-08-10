@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "classlinkmanager",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authclasslinkmanager5fb0eb7f",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

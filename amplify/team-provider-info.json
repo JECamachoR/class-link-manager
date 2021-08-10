@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-classlinkmanager-dev-161057-authRole",
+      "UnauthRoleArn": "arn:aws:iam::963673112435:role/amplify-classlinkmanager-dev-161057-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::963673112435:role/amplify-classlinkmanager-dev-161057-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-classlinkmanager-dev-161057-deployment",
+      "UnauthRoleName": "amplify-classlinkmanager-dev-161057-unauthRole",
+      "StackName": "amplify-classlinkmanager-dev-161057",
+      "StackId": "arn:aws:cloudformation:us-east-1:963673112435:stack/amplify-classlinkmanager-dev-161057/780c3c10-fa1f-11eb-afec-0afb3fae16e5",
+      "AmplifyAppId": "dcoljdf0pwu4j"
+    },
+    "categories": {
+      "auth": {
+        "classlinkmanager5fb0eb7f": {}
+      }
+    }
+  }
+}
