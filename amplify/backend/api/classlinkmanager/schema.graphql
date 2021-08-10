@@ -5,4 +5,5 @@ type Post @model
   userID: ID!
   name: String!
   url: AWSURL
+  profEmail: AWSEmail
 }
