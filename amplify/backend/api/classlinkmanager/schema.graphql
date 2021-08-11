@@ -1,6 +1,5 @@
 type Post @model 
 @key(name: "byUser", fields: ["userID"]) 
-@auth(rules: [{allow: owner}])
 {
   id: ID!
   userID: ID!
